@@ -1,5 +1,0 @@
-bihar-board-class10/
-├── index.html
-├── style.css
-├── script.js
-└── images/ (add your images here)
