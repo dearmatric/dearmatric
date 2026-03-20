@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bihar Board Class 10 | Study Materials & Videos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Bihar Board Class 10</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#subjects" class="nav-link">Subjects</a></li>
+                    <li><a href="#videos" class="nav-link">Videos</a></li>
+                    <li><a href="#tests" class="nav-link">Tests</a></li>
+                    <li><a href="#notes" class="nav-link">Notes</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Excel in Bihar Board Class 10 Exams</h1>
+            <p>Free Video Lectures, Notes, Practice Tests & Study Materials for BSEB Class 10 Students</p>
+            <div class="hero-buttons">
+                <a href="#videos" class="btn btn-primary">Watch Videos <i class="fas fa-play"></i></a>
+                <a href="#subjects" class="btn btn-secondary">Explore Subjects</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <h3>50K+</h3>
+                <p>Students</p>
+            </div>
+            <div class="stat">
+                <h3>200+</h3>
+                <p>Videos</p>
+            </div>
+            <div class="stat">
+                <h3>100%</h3>
+                <p>Free</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subjects Section -->
+    <section id="subjects" class="subjects">
+        <div class="container">
+            <h2 class="section-title">Choose Your Subject</h2>
+            <div class="subjects-grid">
+                <div class="subject-card" data-subject="math">
+                    <div class="subject-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Mathematics</h3>
+                    <p>Complete syllabus coverage with solved examples</p>
+                    <a href="#videos" class="subject-link">Start Learning <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="subject-card" data-subject="science">
+                    <div class="subject-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Science</h3>
+                    <p>Physics, Chemistry & Biology - All Chapters Covered</p>
+                    <a href="#videos" class="subject-link">Start Learning <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="subject-card" data-subject="english">
+                    <div class="subject-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>English</h3>
+                    <p>Grammar, Literature & Writing Skills</p>
+                    <a href="#videos" class="subject-link">Start Learning <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Lectures -->
+    <section id="videos" class="videos">
+        <div class="container">
+            <h2 class="section-title">Latest Video Lectures</h2>
+            <div class="video-filter">
+                <button class="filter-btn active" data-filter="all">All Subjects</button>
+                <button class="filter-btn" data-filter="math">Mathematics</button>
+                <button class="filter-btn" data-filter="science">Science</button>
+                <button class="filter-btn" data-filter="english">English</button>
+            </div>
+            <div class="videos-grid">
+                <div class="video-card" data-category="math">
+                    <div class="video-thumbnail">
+                        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Math Video">
+                        <div class="play-btn"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h4>Real Numbers - Chapter 1</h4>
+                    <p>Complete explanation with examples</p>
+                    <a href="https://youtube.com" target="_blank" class="video-link">
+                        Watch on YouTube <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                <!-- Add more video cards here -->
+                <div class="video-card" data-category="science">
+                    <div class="video-thumbnail">
+                        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Science Video">
+                        <div class="play-btn"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h4>Chemical Reactions</h4>
+                    <p>Class 10 Science Chapter 1</p>
+                    <a href="https://youtube.com" target="_blank" class="video-link">
+                        Watch on YouTube <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="youtube-channel">
+                <a href="https://youtube.com" target="_blank" class="channel-btn">
+                    <i class="fab fa-youtube"></i> Subscribe to Official Channel
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online Tests -->
+    <section id="tests" class="tests">
+        <div class="container">
+            <h2 class="section-title">Practice Online Tests</h2>
+            <div class="tests-grid">
+                <div class="test-card">
+                    <div class="test-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Math Mock Test</h3>
+                    <p>50 Questions | 2 Hours | Chapter 1-5</p>
+                    <button class="test-btn" onclick="startTest('math')">Start Test</button>
+                </div>
+                <div class="test-card">
+                    <div class="test-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <h3>Science Test</h3>
+                    <p>40 Questions | 90 Minutes</p>
+                    <button class="test-btn" onclick="startTest('science')">Start Test</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notes Download -->
+    <section id="notes" class="notes">
+        <div class="container">
+            <h2 class="section-title">Download Study Notes</h2>
+            <div class="notes-grid">
+                <div class="note-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h4>Mathematics Notes</h4>
+                    <p>All chapters - Handwritten & Printed</p>
+                    <a href="#" class="download-btn" download>Download PDF <i class="fas fa-download"></i></a>
+                </div>
+                <div class="note-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h4>Science Notes</h4>
+                    <p>Complete syllabus notes</p>
+                    <a href="#" class="download-btn" download>Download PDF <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bihar Board Class 10</h3>
+                    <p>Best free resource for BSEB Class 10 students</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#subjects">Subjects</a></li>
+                        <li><a href="#videos">Videos</a></li>
+                        <li><a href="#tests">Tests</a></li>
+                        <li><a href="#notes">Notes</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bihar Board Class 10. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Test Modal -->
+    <div id="testModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="testTitle">Mock Test</h2>
+            <p>Starting test in <span id="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
